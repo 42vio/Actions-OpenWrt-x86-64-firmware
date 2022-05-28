@@ -17,4 +17,4 @@ sed -i 's/192.168.1.1/192.168.2.5/g' package/base-files/files/bin/config_generat
 sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/files/zzz-default-settings
 
 #3. Change default theme
-sed -i 's/luci-theme-bootstrap/luci-theme-argon/g'feeds/luci/collections/luci/Makefile
+sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
